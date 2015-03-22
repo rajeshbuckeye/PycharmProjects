@@ -12,7 +12,7 @@ import pandas.io.data
 #print sp500.head()
 #sp500.to_csv('sp500_yahoo_csv')
 
-c = pd.io.data.get_data_yahoo('C',start=datetime.datetime(2000,01,01), end=datetime.datetime(2015,01,01))
+c = pd.io.data.get_data_yahoo('C', start=datetime.datetime(2000,01,01), end=datetime.datetime(2015,01,01))
 
 print(c)
 
